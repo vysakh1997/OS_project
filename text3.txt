@@ -1,0 +1,7 @@
+A kernel module is an extension to the operating system. The module resides in the same privilege level of the OS (the highest) and therefore can access every resource of the system. Under Linux, a module is nothing more than a C program with a well-defined interface to communicate with user processes and with other parts of the operating system.
+
+In the following sections we will use the term device driver instead of kernel module. A device driver is a kernel module specialized in I/O communication with some sort of device. The term device has a very wide meaning and it does not exclusively refer to an external or physical system. In general, a device is some kind of resource such as a floppy disk, a printer, a mouse, but also a special region of memory, a virtual terminal or a message box.
+
+An excellent source of information on this topic is Linux Device Drivers, by Alessandro Rubini and Jonathan Corbet. This book, published by O'Reilly, is also available online in PDF and HTML formats (see resources).
+
+Writing device drivers for Linux is very easy. By the end of this paper you should be capable of writing a simple device driver. At that point, if you found all of this fascinating, you should definitely read the book above - in any case, take a look at it!
